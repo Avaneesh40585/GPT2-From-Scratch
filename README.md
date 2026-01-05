@@ -193,11 +193,13 @@ Contributions are welcome! Whether it's optimizing the attention mechanism, addi
 
 ## Acknowledgements
 
-* **OpenAI** for their groundbreaking paper on GPT-2, which defined the architecture used in this project:
-    > Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). *Language Models are Unsupervised Multitask Learners*. OpenAI Blog. [Read the official paper](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf).
+* **OpenAI** for their paper on GPT-2, which defined the architecture used in this project:
+    > [*Language Models are Unsupervised Multitask Learners*](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf).
 
-* **Sebastian Raschka** for his exceptional educational repository and book, which served as a primary reference for my "from scratch" implementation details:
-    > Raschka, S. (2023). *LLMs-from-scratch* [Source Code]. GitHub. https://github.com/rasbt/LLMs-from-scratch.
+* **Sebastian Raschka** for his repository and book, which served as a primary reference for my "from scratch" implementation:
+
+    > Raschka, Sebastian. Build A Large Language Model (From Scratch). Manning, 2024. ISBN: 978-1633437166.  
+    > Source Code: [Github](https://github.com/rasbt/LLMs-from-scratch).
 
 ---
 
