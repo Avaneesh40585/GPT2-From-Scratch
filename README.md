@@ -60,7 +60,7 @@ The model follows the standard **GPT-2 (Decoder-Only Transformer)** design. It p
 -   **Custom Generation:** Implements Top-K sampling and Temperature scaling to control the creativity and coherence of generated text.
 -   **Auto-Splitting:** The dataset handler automatically splits a single raw text file (`input.txt`) into Train/Validation/Test sets.
 -   **Adaptive Data Handling:** Uses a **sliding window approach** with configurable stride to create efficient, overlapping input-target pairs, maximizing data usage from limited text sources.
--   **Weight Tying:** Implements **weight tying** between the token embedding layer and the final output head (a standard GPT-2 optimization) to reduce parameter count and improve training stability.
+-   **Weight Tying:** Explains **weight tying** between the token embedding layer and the final output head (a standard GPT-2 optimization) to reduce parameter count (used in the official implementation). But we don't use it in our implementation (explantion provided in notebook).
 -   **BPE Tokenization:** Integrates OpenAI's `tiktoken` library for fast **Byte Pair Encoding (BPE)**, enabling efficient subword processing that matches the official GPT-2 vocabulary schema.
 
 ---
